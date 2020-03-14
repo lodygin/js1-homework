@@ -185,10 +185,10 @@ console.log(strReplace);
  */
 console.log('\n=== 9 ===');
 
-strReplace = strReplace.toUpperCase();
+var strUpLowCase = strReplace.toUpperCase();
 
-console.log(strReplace);
+console.log(strUpLowCase);
 
-strReplace = strReplace.toLowerCase();
+strUpLowCase = strUpLowCase.toLowerCase();
 
-console.log(strReplace);
+console.log(strUpLowCase);
